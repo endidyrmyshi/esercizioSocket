@@ -1,0 +1,20 @@
+﻿<Window x:Class="chatSock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:chatSock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtPorta" HorizontalAlignment="Left" Height="22" Margin="551,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lstBOX" HorizontalAlignment="Left" Height="259" Margin="51,54,0,0" VerticalAlignment="Top" Width="196"/>
+        <TextBox x:Name="txtMessaggio" HorizontalAlignment="Left" Height="59" Margin="551,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Inserire IP" HorizontalAlignment="Left" Height="25" Margin="551,48,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Inserire porta" HorizontalAlignment="Left" Height="25" Margin="551,142,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Inserire messaggio" HorizontalAlignment="Left" Height="26" Margin="551,260,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="BTN_INVIA" Content="INVIA" HorizontalAlignment="Left" Height="56" Margin="512,355,0,0" VerticalAlignment="Top" Width="213" Click="BTN_INVIA_Click"/>
+        <TextBox x:Name="txtIP" HorizontalAlignment="Left" Height="31" Margin="551,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
